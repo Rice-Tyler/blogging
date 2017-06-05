@@ -1,0 +1,14 @@
+---
+title: Car Fuel Efficiency Analysis
+author: ~
+date: '2017-06-05'
+slug: car-fuel-efficiency-analysis
+categories: []
+tags: []
+---
+
+```{r mtcars, echo = FALSE}
+library(ggplot2)
+mtcars$cylinders = factor(mtcars$cyl, levels = unique(mtcars$cyl))
+ggplot(data = mtcars, aes(x = mpg, fill = cylinders))+ geom_density(alpha =.5) + theme_classic()
+```
