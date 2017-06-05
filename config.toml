@@ -2,7 +2,7 @@ baseurl = "/"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
-theme = "simple-a"
+theme = "hugo-identity-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -38,3 +38,16 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     height = 50
     alt = "Logo"
 
+    # Personal data
+    [params.personal]
+      # If name is not set, author is used
+      name = "Rice Tyler"
+      # Avatars can be written to images/avatars/
+      avatar = "jane.jpg"
+      position = "Data Scientist"
+      livesIn = "[Charlottesville, Virginia](#some-maps-url)"
+      scope = [
+          "UX for [member dashboard](#)",
+          "Maintainer for [awesome-project](#)",
+          "Open Source [community management](#)"
+        ]
