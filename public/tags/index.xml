@@ -6,6 +6,8 @@
     <description>Recent content in Tags on  Rice&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>Plot</title>
       <link>/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/tags/plot/</guid>
       <description></description>
     </item>
@@ -24,7 +26,7 @@
       <title>R Markdown</title>
       <link>/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/tags/r-markdown/</guid>
       <description></description>
     </item>
@@ -33,7 +35,7 @@
       <title>Regression</title>
       <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
+      <author>youremail@domain.com (Some Person)</author>
       <guid>/tags/regression/</guid>
       <description></description>
     </item>

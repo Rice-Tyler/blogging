@@ -15,10 +15,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://github.com/Rice-Tyler"
 
 [params]
     description = "A website built through Hugo and blogdown."
@@ -34,11 +31,21 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
    # Sidebar position
       # false, true, "left", "right"
       sidebar = "left"
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
+      
+      [[menu.main]]
+    parent = "samples"
+    name = "Big Image Sample"
+    url = "post/2017-03-07-bigimg-sample"
+    weight = 1
+    
+  [params.logo]
+    url = "eagle.png"
+    width = 75
+    height = 100
     alt = "Logo"
+  [Author]
+  name = "Some Person"
+  email = "youremail@domain.com"
     
 
    
