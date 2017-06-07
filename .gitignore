@@ -2,5 +2,4 @@
 .Rhistory
 .RData
 .Ruserdata
-.hugo-lithium-theme
-.public/
+public/
